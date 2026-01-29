@@ -116,7 +116,7 @@ int main( int argc, char **argv ){
 
 	TPLFile spriteTPL;
 	TPL_OpenTPLFromMemory(&spriteTPL, (void *)textures_tpl,textures_tpl_size);
-	TPL_GetTexture(&spriteTPL,sanchez,&texObj);
+	TPL_GetTexture(&spriteTPL,primosso,&texObj);
 	GX_LoadTexObj(&texObj, GX_TEXMAP0);
 
 	guOrtho(perspective,0,479,0,639,0,300);
